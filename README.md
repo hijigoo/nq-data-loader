@@ -23,5 +23,5 @@ gzip -d v1.0-simplified-nq-train.jsonl.gz
 
 ## 코드 실행
 ```
-python read_jsonnl.py
+python nq_loader.py
 ```
