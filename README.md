@@ -25,7 +25,7 @@ aws s3 cp <S3 URI> ./data/v1.0-simplified-nq-train.jsonl.gz
 ex)
 ```
 cd ~/environment/nq-data-loader
-aws s3 cp s3://coding-school-2024/data/v1.0-simplified-nq-train.jsonl.gz ./data/v1.0-simplified-nq-train.jsonl.gz
+aws s3 cp s3://my-nq-data-0410/v1.0-simplified-nq-train.jsonl.gz ./data/v1.0-simplified-nq-train.jsonl.gz
 ```
 
 ## 파일 압축 해제
