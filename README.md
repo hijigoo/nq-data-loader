@@ -29,6 +29,11 @@ cd ~/environment/nq-data-loader/data
 gzip -d v1.0-simplified-nq-train.jsonl.gz 
 ```
 
+## 파일 용량 확인
+```
+ls -alh
+```
+
 ## 코드 실행
 ```
 cd ~/environment/nq-data-loader
