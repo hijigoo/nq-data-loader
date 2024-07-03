@@ -5,7 +5,7 @@
 
 ## 프로젝트 다운로드
 ```
-https://github.com/hijigoo/nq-data-loader.git
+git clone https://github.com/hijigoo/nq-data-loader.git
 ```
 
 ## Cloud9 볼륨 조절
