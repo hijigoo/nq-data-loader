@@ -1,17 +1,19 @@
 # 명령어
 
-## Cloud9 볼륨 조절
-```
-cd ~/environment/nq-data-loader
-bash resize.sh 50
-```
-
 ## 프로젝트 다운로드
 ```
 https://github.com/hijigoo/nq-data-loader.git
 ```
 
+## Cloud9 볼륨 조절
+AWS의 Cloud9 에서 환경을 구성하는 경우 필요합니다.
+```
+cd ~/environment/nq-data-loader
+bash resize.sh 50
+```
+
 ## 파일 다운로드
+데이터를 S3 에서 다운받는 경우 필요합니다.
 ```
 cd ~/environment/nq-data-loader
 aws s3 cp <S3 URI> ./data
@@ -24,6 +26,7 @@ aws s3 cp s3://coding-school-2024/data/v1.0-simplified-nq-train.jsonl.gz ./data/
 ```
 
 ## 파일 압축 해제
+압축을 해제하는데 시간이 다소 걸립니다.
 ```
 cd ~/environment/nq-data-loader/data
 gzip -d v1.0-simplified-nq-train.jsonl.gz 
@@ -35,6 +38,7 @@ ls -alh
 ```
 
 ## 코드 실행
+옵션 값들은 파일에서 직접 수정하거나 파라미터로 넘길 수 있습니다.
 ```
 cd ~/environment/nq-data-loader
 python nq_loader.py
