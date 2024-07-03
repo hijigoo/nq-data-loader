@@ -19,7 +19,7 @@ bash resize.sh 50
 데이터를 S3 에서 다운받는 경우 필요합니다.
 ```
 cd ~/environment/nq-data-loader
-aws s3 cp <S3 URI> ./data
+aws s3 cp <S3 URI> ./data/v1.0-simplified-nq-train.jsonl.gz
 ```
 
 ex)
