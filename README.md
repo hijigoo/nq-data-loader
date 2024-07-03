@@ -1,13 +1,14 @@
 # 명령어
-## 프로젝트 다운 로드
-```
-https://github.com/hijigoo/nq-data-loader.git
-```
 
 ## Cloud9 볼륨 조절
 ```
 cd ~/environment/nq-data-loader
 bash resize.sh 50
+```
+
+## 프로젝트 다운로드
+```
+https://github.com/hijigoo/nq-data-loader.git
 ```
 
 ## 파일 다운로드
@@ -21,7 +22,6 @@ ex)
 cd ~/environment/nq-data-loader
 aws s3 cp s3://coding-school-2024/data/v1.0-simplified-nq-train.jsonl.gz ./data/v1.0-simplified-nq-train.jsonl.gz
 ```
-
 
 ## 파일 압축 해제
 ```
