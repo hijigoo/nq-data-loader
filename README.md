@@ -12,13 +12,14 @@ bash resize.sh 50
 
 ## 파일 다운로드
 ```
-mkdir data
-cd ~/environment/nq-data-loader/data
-aws s3 cp <S3 URI> ./
+cd ~/environment/nq-data-loader
+aws s3 cp <S3 URI> ./data
 ```
 
+ex)
 ```
-ex) aws s3 cp s3://coding-school-2024/data/v1.0-simplified-nq-train.jsonl.gz ./
+cd ~/environment/nq-data-loader
+aws s3 cp s3://coding-school-2024/data/v1.0-simplified-nq-train.jsonl.gz ./data/v1.0-simplified-nq-train.jsonl.gz
 ```
 
 
