@@ -1,5 +1,5 @@
 # 개요
-본 레포는 [Google Natural Questions(NQ)](https://ai.google.com/research/NaturalQuestions/) 데이터셋에서 Question 과 LongAnswer 을 편하게 추출하기 위해서 만들어졌습니다.
+본 레포는 [Google Natural Questions(NQ)](https://ai.google.com/research/NaturalQuestions/) 데이터셋에서 Question 과 Long Answer 을 편하게 추출하기 위해서 만들어졌습니다.
 
 # 명령어
 
